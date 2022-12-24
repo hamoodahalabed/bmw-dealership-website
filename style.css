@@ -1,3 +1,7 @@
+body,
+html {
+  height: 100%;
+}
 /*navbar*/
 
 .logo {
@@ -27,6 +31,7 @@
 #testimonials {
   text-align: center;
   background-color: #009ada;
+
   color: #ffffff;
 }
 
@@ -46,6 +51,10 @@
 #features {
   padding: 10% 5%;
   text-align: center;
+}
+
+#features p {
+  opacity: 0.6;
 }
 
 i {
@@ -98,10 +107,38 @@ i:hover {
 }
 .container img {
   width: 80%;
-  margin-left: 15px;
+  margin: 15px;
 }
 
 h2 {
   font-size: 1.5rem !important;
 }
 /*filter*/
+
+/*cover*/
+.cover {
+  background-image: url("images/cover.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border: 1px solid #009ada;
+}
+
+.cover h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  color: #009ada;
+}
+
+.cover p {
+  padding: 1rem;
+  color: #000000;
+
+  font-family: serif;
+}
+
+/*cover*/
