@@ -141,3 +141,23 @@ input {
   align-items: center;
 }
 /*reg*/
+@media (max-width: 768px) {
+  /* styles for screens with width less than 768px */
+  #content_container {
+    width: 80%; /* change the width of the container */
+  }
+  input {
+    height: 30px; /* change the height of the input fields */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* styles for screens with width between 768px and 1024px */
+  #content_container {
+    width: 60%; /* change the width of the container */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* styles for screens with width greater than 1024px */
+}
