@@ -1,0 +1,14 @@
+@startuml
+
+
+
+(*) --> "Browse inventory"
+--> "Search for a specific car" 
+--> "View car details" 
+ --> "Schedule a test drive" 
+ --> Request a quote 
+ --> "Submit a credit application" 
+ --> "Make a purchase"
+
+--> (*)
+@enduml
