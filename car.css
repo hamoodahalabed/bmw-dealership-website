@@ -99,6 +99,11 @@ img {
   display: none;
 }
 @media screen and (max-width: 720px) {
+  .container h4 {
+    font-weight: 500;
+    color: black;
+    font-size: 0.6rem;
+}
   img {
     max-width: 100%;
     object-fit: contain;
@@ -111,4 +116,5 @@ img {
     grid-template-columns: auto auto auto;
     grid-column-gap: 1em;
   }
+
 }
