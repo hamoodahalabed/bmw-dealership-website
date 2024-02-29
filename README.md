@@ -7,3 +7,17 @@ The website is built using HTML, CSS, and JavaScript and contain a login and sig
 
 website-link: <a href="url">https://hamoodahalabed.github.io/bmw-dealership-website/</a>
 
+
+## Features
+
+- **Responsive Design**: Ensures a seamless experience across various devices.
+- **Firebase Authentication**: Users can sign up, log in, and manage their accounts securely.
+- **Real-time Data Storage**: Utilizes Firebase for storing and updating user data in real-time.
+- **GitHub Integration**: Leverages GitHub for version control and collaboration.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Firebase
